@@ -1,3 +1,5 @@
+# ROS 2 installation guide for Ubuntu
+Refer [ROS2 Offical Documentation](https://docs.ros.org/en/jazzy/Installation/Ubuntu-Install-Debians.html) for any queries.
 
 # Ubuntu (Debian packages)
 
@@ -16,12 +18,14 @@
 - [Troubleshoot](#troubleshoot)
 - [Uninstall](#uninstall)
 
+Debian packages for ROS 2 Jazzy Jalisco are currently available for Ubuntu Noble (24.04). The target platforms are defined in [REP 2000](https://ros.org/reps/rep-2000.html).
+
 ## Resources
 
 - **Status Page:**
-  - ROS 2 Jazzy (Ubuntu Noble 24.04): amd64, arm64
-- **[Jenkins Instance](#)**
-- **[Repositories](#)**
+  - ROS 2 Jazzy (Ubuntu Noble 24.04): [amd64](http://repo.ros2.org/status_page/ros_jazzy_default.html), [arm64](http://repo.ros2.org/status_page/ros_jazzy_ujv8.html)
+- **[Jenkins Instance](http://build.ros2.org/)**
+- **[Repositories](http://repo.ros2.org/)**
 
 ## System setup
 
@@ -40,7 +44,7 @@ locale  # Verify settings
 
 ### Enable required repositories
 
-Enable Ubuntu Universe repository and add ROS 2 repository:
+Enable [Ubuntu Universe repository](https://help.ubuntu.com/community/Repositories/Ubuntu) and add ROS 2 repository:
 
 ```bash
 sudo apt install software-properties-common
